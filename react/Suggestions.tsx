@@ -102,7 +102,8 @@ function Suggestions() {
           tablet: 1,
           phone: 1,
         }}
-        showPaginationDots="never"
+        showNavigationArrows="desktopOnly"
+        showPaginationDots="mobileOnly"
         infinite={true}
         >
         <div className={handles.buyTogetherProductContainer}>
